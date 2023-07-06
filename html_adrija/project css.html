@@ -1,0 +1,199 @@
+<html>
+<head>
+<style>
+.pic-btn{
+margin: auto;
+display: flex;
+position: relative;
+width: 100%;   
+}
+.container{
+position:relative;
+width:100%;
+max-width:400px;
+height: 600px;
+display:block;
+margin:0px auto;
+float: left;
+background-image: url("picture7.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+animation-name: myani1;
+animation-duration: 25s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes myani1{
+   10%{background-image: url("picture7.jpg");}
+   45%{background-image: url("hassan-ouajbir-MkmcxwwCepY-unsplash.jpg");}
+   85%{background-image: url("portrait-happy-smiling-young-businessman-blue-suit-isolated-white-wall.jpg");}
+}
+
+.container .btn{
+position:absolute;
+top:90%;
+left:45%;
+background-color:orangered;
+color:white;
+padding:10px;
+cursor:pointer;
+float: left;
+box-sizing: border-box;
+border-radius: 10px;
+transition: 1s;
+}
+a{
+   text-decoration: none;
+   color: #fff;
+   font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+}
+.container .btn:hover{
+ background: linear-gradient(to right,#dec85b,#665603);
+}
+.dropdown{
+position: relative;
+top: 100%;
+left: 0;
+width: 100%;
+padding: 0;
+display: none;
+}
+.container .btn:hover .dropdown{
+display: block;
+position: relative;
+}
+.dropdown ul{
+list-style: none;
+align-items: center;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 300;
+}
+.dropdown ul > li{
+background: none;
+margin: 10px;
+align-content: center;
+}
+.dropdown ul > li:hover{
+background: transparent;
+display: block;
+padding: 4px;
+border-bottom: 1px dotted #fff;
+border-radius: 0;
+text-align: right;
+position: relative;
+}
+
+            
+
+.container1{
+float:left;
+position:relative;
+width:100%;
+max-width:400px;
+height: 600px;
+display:block;
+margin:0px auto;
+background-image: url("picture4.jpg");
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+animation-name: myani2;
+animation-duration: 25s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes myani2{
+   10%{background-image: url("picture4.jpg");}
+   45%{background-image: url("celine-druguet-V2WjELpgOEQ-unsplash.jpg");}
+   85%{background-image: url("businesswoman-relaxing-after-work.jpg");}
+}
+
+.container1 .btn{
+position:absolute;
+top:90%;
+left:45%;
+background-color:orangered;
+color:white;
+padding:10px;
+cursor:pointer;
+box-sizing: border-box;
+border-radius: 10px;
+ transition: 1s;
+}
+.container1 .btn:hover{
+ background: linear-gradient(to right,#dec85b,#665603);
+}
+.dropdown{
+position: relative;
+top: 100%;
+left: 0;
+width: 100%;
+padding: 0;
+display: none;
+}
+.container1 .btn:hover .dropdown{
+display: block;
+position: relative;
+}
+.dropdown ul{
+list-style: none;
+align-content: center;
+}
+.dropdown ul > li{
+background: none;
+margin: 10px;
+}
+.dropdown ul > li:hover{
+background: transparent;
+display: block;
+padding: 4px;
+border-bottom:  1px rgba(0,0,0,3) solid;
+border-radius: 0;
+text-align: center;
+}
+
+
+
+
+
+</style>
+
+</head>
+<body>
+<div class="pic-btn">
+      <div class="container">
+      <a href="file:///C:/Users/SAYAN%20BHATTACHARYA/Desktop/group_c%20html/html_sayan/Men-section.html" target="_blank"><button class="btn">MEN</a>
+      <div class="dropdown">
+         <ul>
+            <li>Cloths</li>
+            <li>Footwear</li>
+            <li>Watches</li>
+            <li>Bags</li>
+         </ul>
+      </div>
+      </button>
+      </div>
+      <div class="container1">
+      
+     <a href="file:///C:/Users/SAYAN%20BHATTACHARYA/Desktop/group_c%20html/html_sayan/Women_section.html" target="_blank"> <button class="btn">WOMEN</a>
+      <div class="dropdown">
+         <ul>
+            <li>Cloths</li>
+            <li>Footwear</li>
+            <li>Watches</li>
+            <li>Bags</li>
+         </ul>
+      </div>
+   
+   
+     </button>
+   </div>
+
+</div>
+
+</body>
+</html>
